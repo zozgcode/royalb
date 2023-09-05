@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Modal from "@bdenzer/react-modal";
-import Logo from "../../assets/logoo.png";
 // import creditCard from "../../assets/1617888734hh2iaLYuB1.png";
 import "./Dashboard.css";
 import SamuelDMarcus from "../AllUserTransactions/SamuelDMarcus";
@@ -29,7 +28,7 @@ export default function Dashboard() {
   return (
     <div className="dashboard">
       <div className="dashboard_header">
-        <img className="Logo" src={Logo} alt="logo" />
+        <img className="Logo" src="https://i.imgur.com/qQ9j5BZ.png" alt="logo" />
         <button className="logout_btn" onClick={signOut} href="#">
           Logout
         </button>
